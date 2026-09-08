@@ -1,0 +1,9 @@
+name: cap3764
+channels:
+  - defaults
+dependencies:
+  - jupyterlab
+  - python=3.11
+  - matplotlib
+  - pandas
+prefix: /opt/anaconda3/envs/cap3764
