@@ -62,6 +62,7 @@ In JupyterLab, run the notebooks in the following order:
 2. `notebooks/02_numerical_eda.ipynb` - Exploratory data analysis of numerical features
 3. `notebooks/03_categorical_eda.ipynb` - Exploratory data analysis of categorical features
 4. `notebooks/04_modeling.ipynb` - Baseline, Linear Regression, and Random Forest modeling and evaluation
+5. `notebooks/05_error_analysis.ipynb` - Actual vs. predicted plot and analysis of the model's largest errors
 
 ## Team Members
 - Dariya Damirbekova
