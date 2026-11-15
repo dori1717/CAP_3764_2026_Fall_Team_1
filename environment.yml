@@ -6,4 +6,5 @@ dependencies:
   - python=3.11
   - matplotlib
   - pandas
+  - scikit-learn
 prefix: /opt/anaconda3/envs/cap3764

@@ -48,6 +48,12 @@ The initial EDA will include:
 - `environment.yml` - Conda environment configuration
 - `.gitignore` - Files and directories excluded from Git tracking
 
+## Execution Order
+1. `notebooks/01_data_collection_cleaning.ipynb` - Data loading, cleaning, and saving `student-por-clean.csv`
+2. `notebooks/02_numerical_eda.ipynb` - Exploratory data analysis of numerical features
+3. `notebooks/03_categorical_eda.ipynb` - Exploratory data analysis of categorical features
+4. `notebooks/04_modeling.ipynb` - Baseline, Linear Regression, and Random Forest modeling and evaluation
+
 ## Team Members
 - Dariya Damirbekova
 - Aiana Albert
