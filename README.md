@@ -39,34 +39,16 @@ The initial EDA will include:
 - Summary tables
 - Relevant data visualizations
 
- ## Setup and Run
-
-From the root of the repository, run:
-
-```bash
-conda env create -f student_performance_environment.yml
-conda activate cap3764
-jupyter lab
-```
-
-In JupyterLab, open the `notebooks/` folder and run the notebooks in this order:
-
-1. `01_data_collection_cleaning.ipynb`
-2. `02_numerical_eda.ipynb`
-3. `03_categorical_eda.ipynb`
-
-The numerical EDA notebook displays four charts and saves them to `outputs/visualizations/`.
-
 ## Repository Structure
 
 - `my_modules/` - Custom Python modules used in the project
 - `notebooks/` - Jupyter notebooks for data collection, cleaning, and analysis
 - `data/` - Local dataset files (excluded from Git tracking)
 - `outputs/` - Generated project outputs
-- `student_performance_environment.yml` - Conda environment configuration
+- `environment.yml` - Conda environment configuration
 - `.gitignore` - Files and directories excluded from Git tracking
 
-## Execution Order
+## Setup and Run
 1. `notebooks/01_data_collection_cleaning.ipynb` - Data loading, cleaning, and saving `student-por-clean.csv`
 2. `notebooks/02_numerical_eda.ipynb` - Exploratory data analysis of numerical features
 3. `notebooks/03_categorical_eda.ipynb` - Exploratory data analysis of categorical features
