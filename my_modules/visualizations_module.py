@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 
 
 def create_visualizations():
-    df = pd.read_csv("data/student-por-clean.csv")
+    project_root = Path(__file__).resolve().parents[1]
+    df = pd.read_csv(project_root / "data" / "student-por-clean.csv")
 
-    output_dir = Path("outputs/visualizations")
+    output_dir = project_root / "outputs" / "visualizations"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Chart 1: Final grade distribution

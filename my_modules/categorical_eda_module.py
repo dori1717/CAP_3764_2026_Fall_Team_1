@@ -35,7 +35,7 @@ def value_counts_table(df, col):
     Return counts and percentages for every category of one column.
     """
     counts = df[col].value_counts(dropna=False)
-    percent = (counts / len(df) * 100).round(1)
+    percent = (df[col].value_counts(normalize=True, dropna=False) * 100).round(1)
     return pd.DataFrame({"count": counts, "percent": percent})
 
 
